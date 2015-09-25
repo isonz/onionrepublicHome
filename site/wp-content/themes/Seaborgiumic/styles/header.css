@@ -1,0 +1,80 @@
+/* = header.css
+--------------------------------------------------- */
+
+#header #branding {
+	float: left;
+	height: 91px;
+	overflow: hidden;
+}
+
+#header .widget-area {
+	float: right;
+}
+#header .widget_search {
+	margin: 22px 0 0 0;
+}
+#header .widget_search form {
+	margin: 0;
+	padding: 0;
+	height: 32px;
+	width: 322px;
+	background: transparent url('images/input-search.png') 0 0 no-repeat;
+}
+#header .widget_search label {
+	display: none;
+}
+#header .widget_search input {
+	margin: 0;
+	padding: 9px;
+	font: italic 11px/12px 'Open Sans', sans-serif;
+	border: 0 none;
+	color: #818181;
+	width: 216px;
+	background: transparent none;
+}
+#header .widget_search button {
+	display: block;
+	float: right;
+	border: 0 none;
+	background: transparent url('images/button-search.png') 0 0 no-repeat;
+	width: 84px;
+	height: 32px;
+	padding: 0;
+}
+#header .widget_search button span {
+	display: none;
+}
+#header .widget_socialnet {
+	margin-top: 42px;
+	float: right;
+}
+#header .widget_socialnet ul {
+	display: block;
+	margin: 0;
+	padding: 0;
+	height: 25px;
+}
+#header .widget_socialnet ul li {
+	display: block;
+	margin: 0 0 0 10px;
+	padding: 0;
+	float: left;
+}
+#header .widget_socialnet ul li a {
+	display: block;
+	margin: 0;
+	padding: 0;
+	text-indent: -999999px;
+	width: 25px;
+	height: 25px;
+	background: transparent url('') 0 0 no-repeat;
+}
+#header .widget_socialnet ul li.facebook a {
+	background-image: url('images/icon-sn-facebook.png');
+}
+#header .widget_socialnet ul li.twitter a {
+	background-image: url('images/icon-sn-twitter.png');
+}
+#header .widget_socialnet ul li.rss a {
+	background-image: url('images/icon-sn-rss.png');
+}

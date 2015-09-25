@@ -1,0 +1,114 @@
+/* = base.css
+--------------------------------------------------- */
+
+body {
+	margin: 0;
+	padding: 0;
+	font: normal 14px/1.5em 'Open Sans', sans-serif;
+	color: #292929;
+	background: #ddd none;
+}
+form {
+	margin: 1em 0;
+	padding: 0;
+	display: block;
+}
+blockquote {
+	margin: 1em 0;
+	padding: 0 1em;
+	border: 1px solid #c8c8c8;
+	background: #eee none;
+	font-style: italic;
+	border-radius: 5px;
+}
+blockquote em {
+	font-style: normal;
+}
+blockquote blockquote {
+	border-color: #c8c8c8;
+	background: #fefefe none;
+	font-style: normal;
+}
+blockquote blockquote em {
+	font-style: italic;
+}
+blockquote blockquote blockquote {
+	border-color: #c8c8c8;
+	background: #eee none;
+	font-style: italic;
+}
+blockquote blockquote em {
+	font-style: normal;
+}
+iframe {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 1em 0;
+	padding: 0;
+}
+p {
+	margin: 1em 0;
+	padding: 0;
+}
+dl,
+ol,
+ul {
+	margin: 1em 0;
+	padding: 0 0 0 3em;
+	list-style-position: inside;
+}
+ol ol,
+ul ul,
+ol ul,
+ul ol {
+	margin: 0;
+}
+a {
+	outline: none;
+}
+a:link,
+a:visited {
+	color: #0276c7;
+	text-decoration: none;
+}
+a:hover,
+a:active {
+	color: #0276c7;
+	text-decoration: underline;
+}
+abbr {
+	border: 0 none;
+}
+table {
+	margin: 1em 0;
+}
+input,
+button,
+select,
+option,
+textarea {
+	line-height: 14px;
+	font-family:  'Droid Sans', sans-serif;
+}
+input,
+textarea {
+	font: normal 14px/1em  'Droid Sans', sans-serif;
+}
+*:focus {
+	outline: none;
+}
+iframe {
+	margin: 1em 0;
+}
+
+
+
+

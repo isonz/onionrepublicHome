@@ -1,0 +1,103 @@
+
+
+
+
+/* = navigation.css
+--------------------------------------------------- */
+
+/** Primary Menu **/
+
+#menubar ul {
+	display: block;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	height: 51px;
+}
+#menubar ul li {
+	display: block;
+	margin: 0;
+	padding: 0;
+	float: left;
+	position: relative;
+}
+#menubar ul li a {
+	display: block;
+	margin: 0;
+	padding: 0 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: block;
+	font: normal 16px/51px 'Open Sans', sans-serif;
+	color: #b1b1b1;
+}
+
+#menubar ul li:hover a,
+#menubar ul li.hover a,
+#menubar ul li.current-menu-item a,
+#menubar ul li.current_page_item a {
+	color: #fff;
+}
+
+#menubar ul li ul {
+	display: none;
+	position: absolute;
+	width: 180px;
+	height: auto;
+	margin: -1px 0 0 0;
+	z-index: 999999;
+	padding: 0;
+}
+#menubar ul li:hover ul,
+#menubar ul li.hover ul {
+	display: block;
+}
+#menubar ul li:hover ul li,
+#menubar ul li.hover ul li {
+	display: block;
+	float: none;
+	margin: 0 0 -1px 0;
+	padding: 0;
+	border: 1px solid #000;
+	background: #3c3c3c none;
+}
+#menubar ul li:hover ul li a,
+#menubar ul li.hover ul li a {
+	display: block;
+	color: #a2a5ab;
+	font-size: 14px;
+	line-height: 18px;
+	float: none;
+	padding: 4px 19px;
+	margin: 0;
+	background: transparent none;
+	border: 0 none;
+	border-radius: 0;
+	box-shadow: none;
+}
+#menubar ul li:hover ul li:hover a,
+#menubar ul li.hover ul li.hover a,
+#menubar ul li:hover ul li.current-page_item a,
+#menubar ul li.hover ul li.current-page_item a {
+	color: #e8e9eb;
+}
+#menubar ul li:hover ul li ul,
+#menubar ul li.hover ul li ul {
+	display: none;
+}
+#menubar ul li:hover ul li:hover ul,
+#menubar ul li.hover ul li.hover ul {
+	display: block;
+	height: auto;
+	float: left;
+	margin: -27px 0 0 178px;
+}
+#menubar ul li:hover ul li:hover ul li a,
+#menubar ul li.hover ul li.hover ul li a {
+	color: #a2a5ab;
+}
+#menubar ul li:hover ul li:hover ul li:hover a,
+#menubar ul li.hover ul li.hover ul li.hover a {
+	color: #e8e9eb;
+}
+

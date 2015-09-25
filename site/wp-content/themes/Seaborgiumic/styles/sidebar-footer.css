@@ -1,0 +1,116 @@
+#fwa {
+        color: #fff;
+}
+
+#fwa .fwa-bar {
+	float: left;
+	margin: 0 10px 10px;
+	width: 300px;
+}
+#fwa #fwa-3 {
+	margin: 0;
+}
+#fwa .widget-title {
+	font: 600 18px/24px 'Open Sans', sans-serif;
+	margin: 0 0 0.75em 0;
+}
+#fwa .widget ul {
+	margin: 0 0 -1em 0;
+	padding: 0;
+	list-style-type: none;
+}
+#fwa .widget ul li {
+	margin: 0 0 1em 0;
+	padding: 0;
+}
+#fwa .widget ul ul {
+	margin: 1em 0 0 0;
+	padding: 0 0 0 3em;
+}
+#fwa .widget a {
+	color: #fff;
+	text-decoration: underline;
+}
+#fwa .widget a:hover {
+	text-decoration: none;
+}
+
+/** Tweets **/
+#fwa .widget_tweets ul li .padd-twitter-timestamp {
+	display: block;
+	color: #575a61;
+}
+
+/** Recent Posts **/
+#fwa .widget .recent-posts li .thumbnail {
+	display: block;
+	float: left;
+}
+#fwa .widget .recent-posts li h4 {
+	font-size: 13px;
+	line-height: 1.5em;
+	display: block;
+	margin: 0 0 0 70px;
+	font-weight: normal;
+}
+#fwa .widget .recent-posts li h4 a {
+	text-decoration: none;
+}
+#fwa .widget .recent-posts li h4 a:hover {
+	text-decoration: underline;
+}
+#fwa .widget .recent-posts li p {
+	font-size: 10px;
+	line-height: 14px;
+	display: block;
+	margin: 0 0 0 70px;
+}
+
+/** Recent Comments **/
+#fwa .widget_recent_comments  ul li {
+	min-height: 70px;
+}
+#fwa .widget_recent_comments  ul li img {
+	float: left;
+}
+#fwa .widget_recent_comments  ul li .comm {
+	margin: 0 0 0 80px;
+}
+#fwa .widget_recent_comments  ul li .comm p {
+	margin: 0 0 0.25em 0;
+}
+
+/** Ads **/
+#fwa .widget_ads .widget-title {
+	display: none;
+}
+#fwa .widget_ads .ads-area {
+	padding: 0 10px;
+}
+#fwa .widget_ads .ads-wrap {
+	width: 125px;
+	height: 125px;
+	overflow: hidden;
+	float: left;
+	margin: 0 0 15px 5px;
+}
+#fwa .widget_ads .ads-wrap:nth-child(2n+2) {
+	float: right;
+	margin: 0 5px 15px 0;
+}
+#fwa .widget_ads .ads-3,
+#fwa .widget_ads .ads-4 {
+	margin-bottom: 0 !important;
+}
+
+/* Facebook Likebox */
+#fwa .widget_fb_likebox {
+	margin: 0 10px;
+}
+#fwa .widget_fb_likebox .widget-title {
+	display: none;
+}
+#fwa .widget_fb_likebox iframe {
+	margin: 0;
+	background: #fff none;
+}

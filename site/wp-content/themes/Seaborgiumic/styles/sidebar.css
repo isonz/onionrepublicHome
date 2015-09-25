@@ -1,0 +1,326 @@
+
+/* = sidebar.css
+--------------------------------------------------- */
+
+/* = Sidebar General Rules
+--------------------------------------------------- */
+.sidebar .widget {
+	padding: 18px;
+	margin: 32px 0 42px 0;
+	border: 1px solid #ebebeb;
+	background: #fff none;
+	position: relative;
+}
+.sidebar .widget-title {
+        display: block;
+	font-size: 20px;
+        font-weight: bold;
+	line-height: 22px;
+	margin: 0;
+	text-transform: uppercase;
+	color: #292929;
+	text-shadow: #fff 0px 1px;
+	position: absolute;
+	top: -32px;
+	left: 0;
+}
+.sidebar .widget a {
+	color: #7f838a;
+	text-decoration: none;
+}
+.sidebar .widget a:hover {
+	text-decoration: underline;
+}
+.sidebar .widget ul {
+	margin: 0 0 -1em 0;
+	padding: 0;
+	list-style-type: none;
+}
+.sidebar .widget ul li {
+	margin: 0 0 1em 0;
+	padding: 0;
+}
+.sidebar .widget ul ul {
+	margin: 1em 0 0 0;
+	padding: 0 0 0 3em;
+}
+
+/** Search **/
+.sidebar .widget_search form {
+	margin: 0;
+	padding: 0;
+	height: 32px;
+}
+.sidebar .widget_search label {
+	display: none;
+}
+.sidebar .widget_search input {
+	margin: 0;
+	padding: 5px 10px;
+	font-size: 12px;
+	line-height: 12px;
+	border: 0 none;
+	background: #4a4a4a none;
+	color: #eee;
+	width: 203px;
+	float: left;
+}
+.sidebar .widget_search button {
+	border: 0 none;
+	margin: 0;
+	padding: 0;
+	background: #000 none;
+	border: 1px solid #999;
+	width: 34px;
+	height: 28px;
+	text-align: center;
+	line-height: 28px;
+	color: #eee;
+	float: left;
+}
+
+/** Search and Feeds **/
+.sidebar .widget_search_feed,
+.sidebar .widget_search {
+	padding: 0;
+	border: 0 none;
+	background: transparent none;
+}
+.sidebar .widget_search_feed form,
+.sidebar .widget_search form {
+	margin: 0;
+	padding: 0;
+	height: 36px;
+}
+.sidebar .widget_search_feed label,
+.sidebar .widget_search label {
+	display: none;
+}
+.sidebar .widget_search_feed input,
+.sidebar .widget_search input {
+	margin: 0;
+	padding: 10px 10px 9px 10px;
+	font-size: 13px;
+	line-height: 13px;
+	border: 0 none;
+	background: transparent url('images/input-search.png') 0 0 no-repeat;
+	color: #787878;
+	width: 244px;
+	float: left;
+}
+.sidebar .widget_search_feed button,
+.sidebar .widget_search button {
+	border: 0 none;
+	margin: 0;
+	padding: 0;
+	background: transparent url('images/button-search.png') 0 0 no-repeat;
+	border: 0 none;
+	width: 36px;
+	height: 36px;
+	text-align: center;
+	line-height: 28px;
+	float: left;
+}
+.sidebar .widget_search_feed button span,
+.sidebar .widget_search button span {
+	display: none;
+}
+.sidebar .widget_search_feed ul {
+	display: block;
+	padding: 20px 0;
+	margin: 0;
+	border: 1px solid #d4d4d4;
+	border-top: 0 none;
+	background: #e7e7e7 none;
+	text-align: center;
+
+}
+.sidebar .widget_search_feed ul li {
+	display: inline-block;
+	width: 80px;
+	height: 45px;
+	border: 0 none;
+	margin: 0;
+	padding: 0 0 0 50px;
+}
+.sidebar .widget_search_feed ul li.twitter {
+	background: transparent url('images/icon-sn-45-twitter.png') 0 0 no-repeat;
+}
+.sidebar .widget_search_feed ul li.feedburner {
+	background: transparent url('images/icon-sn-45-rss.png') 0 0 no-repeat;
+}
+.sidebar .widget_search_feed ul li span {
+	display: block;
+	text-align: left;
+}
+.sidebar .widget_search_feed ul li .count {
+	font-size: 30px;
+	line-height: 30px;
+}
+.sidebar .widget_search_feed ul li .unit {
+	font-size: 11px;
+	line-height: 13px;
+}
+
+/** Wordpress Popular Posts **/
+.sidebar .widget_wpp ul li {
+	min-height: 71px;
+	margin: 0 0 10px 0;
+	font-family: 'Futura', 'Century Gothic', 'Corbel', sans-serif;
+}
+.sidebar .widget_wpp ul li img {
+	float: left;
+}
+.sidebar .widget_wpp ul li .wpp-post-title {
+	display: block;
+	margin: 0 0 0 81px;
+	font-size: 18px;
+	line-height: 22px;
+	text-transform: uppercase;
+}
+.sidebar .widget_wpp ul li .post-stats {
+	text-transform: none;
+	display: block;
+	font-weight: normal;
+	font-size: 14px;
+	margin: 0 0 0 81px;
+	color: #999;
+}
+
+/** Ads **/
+.sidebar .widget_ads {
+	border: 0 none;
+	padding: 0;
+}
+.sidebar .widget_ads .ads-wrap {
+	width: 300px;
+	height: 250px;
+	overflow: hidden;
+}
+
+/** FB Like Box **/
+.sidebar .widget_fb_likebox {
+	padding: 0;
+	border: 0 none;
+}
+.sidebar .widget_fb_likebox .widget-title {
+	display: none;
+}
+.sidebar .widget_fb_likebox iframe {
+	margin: 0;
+	background: #fff none;
+}
+
+/** FlickrRSS RU **/
+.sidebar .widget_flickrrss_ru {
+	padding-bottom: 9px;
+}
+.sidebar .widget_flickrrss_ru .interior {
+	width: 258px;
+	overflow: hidden;
+}
+.sidebar .widget_flickrrss_ru .wrap {
+	width: 270px;
+}
+.sidebar .widget_flickrrss_ru a {
+	display: block;
+	float: left;
+	margin: 0 11px 11px 0;
+}
+.sidebar .widget_flickrrss_ru img {
+	display: block;
+}
+.sidebar .widget_flickrrss_ru .error a {
+	display: inline;
+	float: none;
+	margin: 0;
+}
+
+/** Recent Posts **/
+.sidebar .widget_recent_posts {
+	padding-bottom: 1px;
+}
+.sidebar .widget_recent_posts ul,
+.sidebar .widget_post_category_tab .box ul {
+	display: block;
+	margin: 0;
+	padding: 0
+}
+.sidebar .widget_recent_posts ul li,
+.sidebar .widget_post_category_tab .box ul li {
+	display: block;
+	margin: 0 0 1em 0;
+	padding: 0;
+	background: transparent none;
+}
+.sidebar .widget_recent_posts ul li .thumbnail,
+.sidebar .widget_post_category_tab .box ul li .thumbnail {
+	display: block; 
+	float: left;
+}
+.sidebar .widget_recent_posts ul li h4,
+.sidebar .widget_post_category_tab .box ul li h4 {
+	font: normal 14px/18px 'Open Sans', sans-serif;
+	margin: 0 0 0.25em 80px;
+}
+.sidebar .widget_recent_posts ul li h4 a,
+.sidebar .widget_post_category_tab .box ul li h4 a {
+	color: #0276c7;
+}
+.sidebar .widget_recent_posts ul li .meta,
+.sidebar .widget_post_category_tab .box ul li .meta {
+	display: block; 
+	margin: 0 0 0 80px;
+	font-size: 13px;
+	line-height: 15px;
+	font-style: italic;
+	color: #7f838a;
+}
+
+/** Post Category Tab **/
+.sidebar .widget_post_category_tab {
+	padding: 0;
+}
+.sidebar .widget_post_category_tab .widget-title {
+	margin: 0;
+}
+.sidebar .widget_post_category_tab ul.tab {
+	display: block;
+	margin: 0;
+	padding: 0 10px;
+	height: 24px;
+	background: transparent url('images/bg-sidebar-tab.png') 0 0 repeat-x;
+}
+.sidebar .widget_post_category_tab ul.tab li {
+	display: block;
+	margin: 0 10px 0 0;
+	padding: 0;
+	background: transparent none;
+	float: left;
+}
+.sidebar .widget_post_category_tab ul.tab li a {
+	display: block;
+	font: normal 14px/24px 'Droid Sans', sans-serif;
+	text-transform: uppercase;
+	color: #222;
+	text-shadow: #a3a9b2 0 1px;
+}
+.sidebar .widget_post_category_tab ul.tab li a:hover,
+.sidebar .widget_post_category_tab ul.tab li.ui-tabs-selected a,
+.sidebar .widget_post_category_tab ul.tab li.ui-state-active a {
+	color: #172a5f;
+	text-decoration: none;
+}
+.sidebar .widget_post_category_tab .box {
+	padding: 20px 10px 1px 10px;
+}
+.sidebar .widget_post_category_tab .box h3 {
+	display: none;
+}
+.sidebar .widget_post_category_tab .ui-tabs-hide {
+	display: none;
+}
+.sidebar .widget_post_category_tab .box ul li .entry-rating {
+	margin: 0 0 3px 80px;
+}
+

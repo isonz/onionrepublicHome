@@ -1,0 +1,272 @@
+/* = content.css
+--------------------------------------------------- */
+
+/** Featured **/
+#featured-box .list .item {
+	width: 220px;
+	position: relative;
+	margin: 0 10px;
+	padding: 0;
+	float: left;
+}
+#featured-box .list .item .image {
+	width: 220px;
+	overflow: hidden;
+}
+#featured-box .list .item h3 {
+	margin: 0.8em 0 0;
+	padding: 0;
+	font: bold 14px/20px 'Open Sans', sans-serif;
+}
+#featured-box .list .item h3 a {
+	color: #292929;
+	text-decoration: none;
+}
+#featured-box .list .item h3 a:hover {
+	color: #292929;
+	text-decoration: underline;
+}
+#featured-box .list .item .meta {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+#featured-box .list .item .meta .datecat {
+	font-size: 14px;
+	font-style: italic;
+	line-height: 30px;
+	margin: 0 0 0.5em;
+}
+#featured-box .list .item .meta p {
+	margin: 0 0 1em;
+	padding: 0;
+}
+
+/** Front Page Loop **/
+.box-featured-category {
+	width: 300px;
+	float: left;
+	margin: 0 10px;
+	font-size: 13px;
+}
+.box-featured-category .page-header {
+	padding: 0 !important;
+}
+.box-featured-category .item {
+	margin: 0 0 10px 0;
+	padding: 0 0 5px 0;
+}
+.box-featured-category .image {
+	float: left;
+}
+.box-featured-category .image a {
+	display: block;
+}
+.box-featured-category .title {
+	margin-left: 90px;
+}
+.box-featured-category h4 {
+	margin: 0 0 6px 0;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 16px;
+}
+.box-featured-category .item h4 a {
+	text-decoration: none;
+	color: #292929;
+}
+.box-featured-category .item h4 a:hover {
+	text-decoration: underline;
+	color: #292929;
+}
+.box-featured-category .title .date {
+	padding: 0;
+	font-size: 12px;
+	font-style: italic;
+}
+
+/** Page Header **/
+.page-header {
+	margin-bottom: 24px;
+}
+.page-header .page-title {
+	display: block;
+	font: normal 30px/36px 'Open Sans', sans-serif;
+	color: #222;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0;
+	text-shadow: 0 0 none;
+}
+.home .page-header {
+	padding: 0 10px;
+	text-transform: uppercase;
+	color: #292929;
+	font: 700 20px/20px 'Open Sans', sans-serif;
+	text-shadow: #fff 0 1px;
+}
+.home .page-header .page-title {
+	color: #fff;
+	line-height: 40px;
+}
+
+
+/** Entry **/
+.entry {
+	margin: 0 0 24px 0;
+}
+.entry .entry-thumbnail {
+	margin: 0 0 1em 0;
+	padding: 0;
+	float: left;
+}
+.entry .entry-thumbnail a {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+.entry .entry-thumbnail img {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+.entry .entry-header,
+.search .entry .entry-header, 
+.entry .entry-excerpt {
+	margin-left: 230px;
+}
+.entry .entry-title {
+	padding: 0;
+	color: #fff;
+	text-shadow: #fff 0 1px;
+	font: bold 14px/25px 'Open Sans', sans-serif;
+	margin: 0;
+}
+.entry .entry-title a {
+	color: #292929;
+	text-decoration: none;
+}
+.entry .entry-title a:hover {
+	text-decoration: underline;
+}
+.entry .meta {
+	display: block;
+	margin: 0;
+	padding: 0 10px;
+        font-size: 12px;
+        font-style: italic;
+	height: 40px;
+	line-height: 40px;
+	color: #222;
+}
+.entry .meta a {
+	color: #868686;
+}
+.entry .meta span {
+	display: block;
+}
+.archive .entry .meta, 
+.search .entry .meta {
+    padding: 0;
+}
+.archive .entry .meta span, 
+.search .entry .meta span {
+    display: inline;
+}
+.entry .meta .author-time {
+	float: left;
+}
+.entry .meta .comment-cat {
+	float: right;
+}
+.entry .meta .category {
+	display: inline-block;
+}
+.entry .meta .comments {
+	display: inline-block;
+	padding: 0 0 0 24px;
+	margin: 0 0 0 10px;
+	background: transparent url('images/bg-comment-count.png') 0 50% no-repeat;
+}
+
+/** Singular Posts **/
+.singular .entry-header,
+.search .not-found .entry-header {
+	margin: 0 0 1.5em 0;
+}
+.singular .entry-title,
+.search .not-found .entry-title  {
+	position: relative;
+	padding: 0;
+	bottom: 0;
+	color: #222;
+	background: transparent none;
+	font: normal 30px/36px 'Open Sans', sans-serif;
+	margin: 0;
+}
+.singular  .entry-title a {
+	color: #222;
+	text-shadow: #fff 0 1px;
+}
+
+/** Entry Boxes **/
+.entry-box {
+	margin: 0 0 30px 0;
+}
+.entry-box .entry-box-header {
+	margin: 0 0 10px 0;
+	border-bottom: 1px dashed #ccc;
+}
+.entry-box .entry-box-title {
+	display: block;
+	margin: 0;
+	padding: 0 0 0 50px;
+	height: 50px;
+	font: normal 22px/50px 'Open Sans', sans-serif;
+	text-transform: uppercase;
+}
+.entry-box-about-author img {
+	float: left;
+	margin: 0 10px 0 0;
+}
+.entry-box-share ul {
+	display: block;
+	list-style: none;
+	margin: 11px 0 0 36px;
+	padding: 0;
+}
+.entry-box-share ul li {
+	display: block;
+	margin: 10px 15px 0 0;
+	padding: 0;
+	float: left;
+}
+.entry-box-share ul li a {
+	display: block;
+	float: left;
+}
+.entry-box-share ul li a img {
+	border: 0 none;
+	padding: 0;
+}
+.entry-box-reply {
+	margin: 0;
+}
+.entry-box-about-author .entry-box-title {
+	background: transparent url('images/bg-post-box-author.png') 0 0 no-repeat;
+}
+.entry-box-share .entry-box-title {
+	background: transparent url('images/bg-post-box-spread-love.png') 0 0 no-repeat;
+}
+.entry-box-related .entry-box-title {
+	background: transparent url('images/bg-post-box-related-posts.png') 0 0 no-repeat;
+}
+.entry-box-replies .entry-box-title {
+	background: transparent url('images/bg-post-box-comments.png') 0 0 no-repeat;
+}
+.entry-box-trackbacks .entry-box-title {
+	background: transparent url('images/bg-post-box-trackbacks.png') 0 0 no-repeat;
+}
+.entry-box-reply .entry-box-title {
+	background: transparent url('images/bg-post-box-comment-add.png') 0 0 no-repeat;
+}

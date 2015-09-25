@@ -1,0 +1,84 @@
+/* = layout.css
+--------------------------------------------------- */
+
+/** Header **/
+#header-wrap {
+	padding: 1px 0 0 0;
+	background: transparent url('images/bg-header-wrap.png') 0 0 repeat-x;
+}
+#header {
+	width: 940px;
+	height: 91px;
+	margin: 0 auto;
+}
+
+/** Menu Bar **/
+#menubar-wrap {
+	background: transparent url('images/bg-menubar-wrap.png') 0 0 repeat-x;
+}
+#menubar {
+	width: 960px;
+	margin: 0 auto;
+	height: 51px;
+}
+#menubar .menu {
+	float: left;
+	height: 51px;
+}
+#menubar .widget_search {
+	float: right;
+}
+
+/** Slideshow **/
+#slideshow,
+#featured-wrap {
+	width: 940px;
+	margin: 0 auto;
+}
+#featured {
+	margin: 0 -10px;
+}
+
+/** Main **/
+#main-wrap {
+	background: #eee none;
+}
+#main {
+	width: 960px;
+	margin: 0 auto;
+	padding: 20px 0;
+	position: relative;
+}
+#primary {
+	width: 620px;
+	float: left;
+	overflow: hidden;
+}
+.home #primary {
+	width: 100%;
+	float: none;
+}
+#secondary {
+	width: 300px;
+	float: right;
+}
+
+/** Footer Widget Area **/
+#fwa-wrap {
+	padding: 30px 0;
+	background: #3c3c3c none;
+}
+#fwa {
+	width: 960px;
+	margin: 0 auto;
+}
+
+/** Copyright **/
+#copyright-wrap {
+	background: transparent url('images/bg-copyright-wrap.png') 0 0 repeat-x;
+}
+#copyright {
+	width: 960px;
+	margin: 0 auto;
+	padding: 0;
+}

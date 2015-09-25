@@ -1,0 +1,806 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WPTF Freemium\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-04-18 06:58+0800\n"
+"PO-Revision-Date: 2012-04-18 06:58+0800\n"
+"Last-Translator: \n"
+"Language-Team: Padd Solutions <info@paddsolutions.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Country: Philippines\n"
+"X-Poedit-KeywordsList: __;_e;_x\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:7
+msgid "Not Found"
+msgstr ""
+
+#: ../404.php:10
+#: ../archive.php:50
+#: ../home.php:26
+#: ../index.php:23
+#: ../search.php:31
+msgid "Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post."
+msgstr ""
+
+#: ../archive.php:9
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: ../archive.php:11
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: ../archive.php:11
+msgid "F Y"
+msgstr ""
+
+#: ../archive.php:13
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: ../archive.php:13
+msgid "Y"
+msgstr ""
+
+#: ../archive.php:15
+#, php-format
+msgid "Posts by %s"
+msgstr ""
+
+#: ../archive.php:17
+#, php-format
+msgid "Posts under %s Category"
+msgstr ""
+
+#: ../archive.php:19
+#, php-format
+msgid "Posts Tagged  &#8216;%s &#8217;"
+msgstr ""
+
+#: ../archive.php:21
+msgid "Blog Archives"
+msgstr ""
+
+#: ../archive.php:47
+#: ../home.php:23
+#: ../index.php:20
+#: ../search.php:28
+msgid "Nothing Found"
+msgstr ""
+
+#: ../comments.php:9
+#: ../comments.php:73
+msgid "Comments"
+msgstr ""
+
+#: ../comments.php:13
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: ../comments.php:19
+msgid "There are no comments on this entry."
+msgstr ""
+
+#: ../comments.php:28
+msgid "Trackbacks"
+msgstr ""
+
+#: ../comments.php:32
+msgid "This post is password protected. Enter the password to view trackbacks."
+msgstr ""
+
+#: ../comments.php:38
+msgid "There are no trackbacks on this entry"
+msgstr ""
+
+#: ../comments.php:60
+msgid "Name"
+msgstr ""
+
+#: ../comments.php:60
+#: ../comments.php:64
+msgid "(Required)"
+msgstr ""
+
+#: ../comments.php:64
+msgid "E-mail"
+msgstr ""
+
+#: ../comments.php:64
+#: ../comments.php:68
+msgid "(Optional)"
+msgstr ""
+
+#: ../comments.php:68
+msgid "Website"
+msgstr ""
+
+#: ../comments.php:83
+msgid "Submit"
+msgstr ""
+
+#: ../header.php:27
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: ../header.php:76
+msgid "Recent Posts"
+msgstr ""
+
+#: ../home.php:7
+#: ../sidebar.php:10
+msgid "Latest News"
+msgstr ""
+
+#: ../loop-singular.php:3
+#: ../loop-singular.php:14
+#: ../loop.php:3
+#: ../loop.php:26
+msgid "(untitled)"
+msgstr ""
+
+#: ../loop-singular.php:8
+#: ../loop.php:7
+#: ../loop.php:20
+#, php-format
+msgid "Permanent Link to %s"
+msgstr ""
+
+#: ../loop-singular.php:22
+msgid "by "
+msgstr ""
+
+#: ../loop-singular.php:23
+#: ../loop.php:34
+msgid "F j, Y"
+msgstr ""
+
+#: ../loop-singular.php:37
+msgid "Pages:"
+msgstr ""
+
+#: ../loop.php:36
+msgid "No comments yet"
+msgstr ""
+
+#: ../loop.php:36
+msgid "1 Comment"
+msgstr ""
+
+#: ../loop.php:36
+msgid "% Comments"
+msgstr ""
+
+#: ../search.php:6
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: ../searchform.php:11
+msgid "Search"
+msgstr ""
+
+#: ../searchform.php:13
+msgid "Go"
+msgstr ""
+
+#: ../sidebar-footer.php:14
+msgid "About Us"
+msgstr ""
+
+#: ../single.php:25
+msgid "Share Our Posts"
+msgstr ""
+
+#: ../library/defaults.php:7
+msgid "Follow me on Twitter"
+msgstr ""
+
+#: ../library/defaults.php:8
+msgid "Twitter Username"
+msgstr ""
+
+#: ../library/defaults.php:9
+msgid "Your <a href=\"http://twitter.com\">Twitter</a> user name. You may leave it blank if you don't have one but we recommend to <a href=\"http://twitter.com/signup\">create an account</a>."
+msgstr ""
+
+#: ../library/defaults.php:14
+msgid "Add me on Facebook"
+msgstr ""
+
+#: ../library/defaults.php:15
+msgid "Facebook Username or URL"
+msgstr ""
+
+#: ../library/defaults.php:16
+msgid "Your <a href=\"http://www.facebook.com\">Facebook</a> username. Please note that user name <em>does not mean</em> your e-mail address. <a href=\"http://www.facebook.com/help.php?page=897\">Read the Q&amp;A</a> for more info. Works on FB Pages only."
+msgstr ""
+
+#: ../library/defaults.php:21
+msgid "RSS"
+msgstr ""
+
+#: ../library/defaults.php:22
+msgid "RSS URL"
+msgstr ""
+
+#: ../library/defaults.php:23
+msgid "Your RSS URL. Leave it blank if you want to use the default WordPress RSS URL."
+msgstr ""
+
+#: ../library/prelude.php:13
+#, php-format
+msgid "Copyright &copy; %1$s. %2$s."
+msgstr ""
+
+#: ../library/setup.php:6
+msgid "Main Menu"
+msgstr ""
+
+#: ../library/setup.php:22
+msgid "Sidebar"
+msgstr ""
+
+#: ../library/setup.php:30
+msgid "Footer 1"
+msgstr ""
+
+#: ../library/setup.php:31
+msgid "Footer widget at the first column."
+msgstr ""
+
+#: ../library/setup.php:38
+msgid "Footer 2"
+msgstr ""
+
+#: ../library/setup.php:39
+msgid "Footer widget at the second column."
+msgstr ""
+
+#: ../library/setup.php:46
+msgid "Footer 3"
+msgstr ""
+
+#: ../library/setup.php:47
+msgid "Footer widget at the third column."
+msgstr ""
+
+#: ../library/admin/options-functions.php:11
+msgid "General Options"
+msgstr ""
+
+#: ../library/admin/options-functions.php:12
+msgid "General"
+msgstr ""
+
+#: ../library/admin/options-functions.php:13
+#, php-format
+msgid "General options for %s theme to work."
+msgstr ""
+
+#: ../library/admin/options-functions.php:18
+msgid "Favicon URL"
+msgstr ""
+
+#: ../library/admin/options-functions.php:21
+msgid "The URL where your favicon is located. Must start with <code>http://</code> or <code>https://</code>."
+msgstr ""
+
+#: ../library/admin/options-functions.php:25
+msgid "Site Name Mode"
+msgstr ""
+
+#: ../library/admin/options-functions.php:28
+msgid "What do you want to do in the site name? If you have a personal or company logo, choose the <strong>Image</strong> mode, otherwise, go for the </strong>Plain Text</strong> mode."
+msgstr ""
+
+#: ../library/admin/options-functions.php:30
+msgid "Plain Text"
+msgstr ""
+
+#: ../library/admin/options-functions.php:31
+msgid "Image"
+msgstr ""
+
+#: ../library/admin/options-functions.php:36
+msgid "Logo URL"
+msgstr ""
+
+#: ../library/admin/options-functions.php:39
+msgid "The URL where your logo is located. Must start with <code>http://</code> or <code>https://</code>. The height of the image should be 86 pixels."
+msgstr ""
+
+#: ../library/admin/options-functions.php:43
+msgid "Featured Categories"
+msgstr ""
+
+#: ../library/admin/options-functions.php:46
+msgid "Pick categories if you want to show this on the home page."
+msgstr ""
+
+#: ../library/admin/options-functions.php:51
+msgid "Enable Social Bookmarks"
+msgstr ""
+
+#: ../library/admin/options-functions.php:54
+msgid "Tick this box to enable the social bookmarks in posts."
+msgstr ""
+
+#: ../library/admin/options-functions.php:58
+msgid "Show Trackbacks"
+msgstr ""
+
+#: ../library/admin/options-functions.php:61
+msgid "Tick this box to render the trackbacks."
+msgstr ""
+
+#: ../library/admin/options-functions.php:71
+msgid "Page Tracker Options"
+msgstr ""
+
+#: ../library/admin/options-functions.php:72
+msgid "Page Tracker"
+msgstr ""
+
+#: ../library/admin/options-functions.php:73
+#, php-format
+msgid "Page tracker options for %s theme to work."
+msgstr ""
+
+#: ../library/admin/options-functions.php:78
+msgid "Tracker Code 1"
+msgstr ""
+
+#: ../library/admin/options-functions.php:81
+msgid "A tracker code to be placed inside the <code>&lt;head&gt;</code> tag."
+msgstr ""
+
+#: ../library/admin/options-functions.php:85
+msgid "Tracker Code 2"
+msgstr ""
+
+#: ../library/admin/options-functions.php:88
+msgid "A tracker code to be placed just before the closing <code>&lt;body&gt;</code> tag."
+msgstr ""
+
+#: ../library/admin/options-functions.php:98
+msgid "Slideshow Options"
+msgstr ""
+
+#: ../library/admin/options-functions.php:99
+msgid "Slideshow"
+msgstr ""
+
+#: ../library/admin/options-functions.php:100
+#, php-format
+msgid "Slideshow options for %s theme to work."
+msgstr ""
+
+#: ../library/admin/options-functions.php:105
+msgid "Enable Slideshow"
+msgstr ""
+
+#: ../library/admin/options-functions.php:108
+msgid "Tick this box to enable the slideshow."
+msgstr ""
+
+#: ../library/admin/options-functions.php:112
+msgid "Designated Slideshow Category"
+msgstr ""
+
+#: ../library/admin/options-functions.php:115
+msgid "The category you want to assign for slideshow. The content is located just below the main menu."
+msgstr ""
+
+#: ../library/admin/options-functions.php:120
+msgid "Number of Slides"
+msgstr ""
+
+#: ../library/admin/options-functions.php:123
+msgid "The number of slides in a slideshow at a time. The value should be at least 2 or more slides."
+msgstr ""
+
+#: ../library/admin/options-functions.php:125
+msgid "2"
+msgstr ""
+
+#: ../library/admin/options-functions.php:126
+msgid "3"
+msgstr ""
+
+#: ../library/admin/options-functions.php:127
+msgid "4"
+msgstr ""
+
+#: ../library/admin/options-functions.php:128
+msgid "5"
+msgstr ""
+
+#: ../library/admin/options-functions.php:129
+msgid "6"
+msgstr ""
+
+#: ../library/admin/options-functions.php:130
+msgid "7"
+msgstr ""
+
+#: ../library/admin/options-functions.php:131
+msgid "8"
+msgstr ""
+
+#: ../library/admin/options-functions.php:132
+msgid "9"
+msgstr ""
+
+#: ../library/admin/options-functions.php:137
+msgid "Slideshow Effect"
+msgstr ""
+
+#: ../library/admin/options-functions.php:140
+msgid "Effect to be shown during the transition of slides."
+msgstr ""
+
+#: ../library/admin/options-functions.php:142
+msgid "None"
+msgstr ""
+
+#: ../library/admin/options-functions.php:143
+msgid "Fade"
+msgstr ""
+
+#: ../library/admin/options-functions.php:144
+msgid "Grow"
+msgstr ""
+
+#: ../library/admin/options-functions.php:145
+msgid "Horizontal Scroll"
+msgstr ""
+
+#: ../library/admin/options-functions.php:146
+msgid "Vertical Scroll"
+msgstr ""
+
+#: ../library/admin/options-functions.php:147
+msgid "Cover"
+msgstr ""
+
+#: ../library/admin/options-functions.php:148
+msgid "Uncover"
+msgstr ""
+
+#: ../library/admin/options-functions.php:149
+msgid "Wipe"
+msgstr ""
+
+#: ../library/admin/options-functions.php:154
+msgid "Slide Duration"
+msgstr ""
+
+#: ../library/admin/options-functions.php:157
+msgid "Number of seconds to wait for the slide show to transition."
+msgstr ""
+
+#: ../library/admin/options-functions.php:161
+msgid "Slide Scroll Speed"
+msgstr ""
+
+#: ../library/admin/options-functions.php:164
+msgid "Number of milliseconds for the transition of the slide show."
+msgstr ""
+
+#: ../library/admin/options-functions.php:174
+msgid "Social Networking Options"
+msgstr ""
+
+#: ../library/admin/options-functions.php:175
+msgid "Social Networking"
+msgstr ""
+
+#: ../library/admin/options-functions.php:176
+#, php-format
+msgid "Social networking options for %s theme to work."
+msgstr ""
+
+#: ../library/admin/options-functions.php:196
+msgid "Page Navigation Options"
+msgstr ""
+
+#: ../library/admin/options-functions.php:197
+msgid "Page Navigation"
+msgstr ""
+
+#: ../library/admin/options-functions.php:198
+#, php-format
+msgid "Page navigation (as some call it pagination) options for %s theme to work."
+msgstr ""
+
+#: ../library/admin/options-functions.php:203
+msgid "Number of Pages to Show"
+msgstr ""
+
+#: ../library/admin/options-functions.php:206
+msgid "The number of pages to show in the page navigation at a time."
+msgstr ""
+
+#: ../library/admin/options-functions.php:210
+msgid "Number of Large Page Numbers to Show"
+msgstr ""
+
+#: ../library/admin/options-functions.php:213
+msgid "Larger page numbers are in additional to the default page numbers. It is useful for authors who is paginating through many posts.<br />For example, page navigation will display: Pages 1, 2, 3, 4, 5, 10, 20, 30, 40, 50.<br />Enter 0 to disable. "
+msgstr ""
+
+#: ../library/admin/options-functions.php:217
+msgid "Show Larger Page Numbers in Multiples of"
+msgstr ""
+
+#: ../library/admin/options-functions.php:220
+msgid "If mutiple is in 5, it will show: 5, 10, 15, 20, 25. If mutiple is in 10, it will show: 10, 20, 30, 40, 50."
+msgstr ""
+
+#: ../library/admin/options-functions.php:230
+#: ../library/admin/options-functions.php:231
+msgid "Advertisements"
+msgstr ""
+
+#: ../library/admin/options-functions.php:232
+#, php-format
+msgid "Advertisement placments for %s theme."
+msgstr ""
+
+#: ../library/admin/options-functions.php:238
+#, php-format
+msgid "Sidebar Ad Space %s (125 &times; 125)"
+msgstr ""
+
+#: ../library/admin/options-functions.php:241
+msgid "Link/Image advertisement code at the sidebar section. It can be an HTML code, Google Adsense code or something else."
+msgstr ""
+
+#: ../library/admin/options-functions.php:297
+#, php-format
+msgid "%s Options"
+msgstr ""
+
+#: ../library/admin/options-functions.php:322
+#, php-format
+msgid "%s options saved."
+msgstr ""
+
+#: ../library/admin/options-functions.php:323
+#, php-format
+msgid "%s options reset."
+msgstr ""
+
+#: ../library/admin/options-ui.php:3
+#, php-format
+msgid "%s Theme Options"
+msgstr ""
+
+#: ../library/admin/options-ui.php:8
+msgid "About"
+msgstr ""
+
+#: ../library/admin/options-ui.php:17
+msgid "About The Theme"
+msgstr ""
+
+#: ../library/admin/options-ui.php:18
+#, php-format
+msgid "%s is a freemium WordPress theme. This special WordPress theme is packed with a better framework, an admin options panel and an awesome design to boot. Download more <a href=\"http://www.paddsolutions.com\">free WordPress Themes</a>."
+msgstr ""
+
+#: ../library/admin/options-ui.php:19
+msgid "Donate To Us"
+msgstr ""
+
+#: ../library/admin/options-ui.php:20
+msgid "Donations are very welcome, any amount counts. Proceeds goes to the development of more freemium WordPress themes."
+msgstr ""
+
+#: ../library/admin/options-ui.php:27
+msgid "Subscribe To Us"
+msgstr ""
+
+#: ../library/admin/options-ui.php:28
+msgid "To get our latest updates, follow us at <a href=\"http://twitter.com/paddsolutions\" target=\"_blank\">Twitter</a>, be our <a href=\"http://www.facebook.com/paddsolutions\" target=\"_blank\">Facebook</a> fan or subscribe to our <a href=\"http://feeds.feedburner.com/paddsolutions\" target=\"_blank\">RSS</a> feed."
+msgstr ""
+
+#: ../library/admin/options-ui.php:29
+msgid "Get In Touch"
+msgstr ""
+
+#: ../library/admin/options-ui.php:30
+msgid "We love to hear your thoughts. Feel free to <a href=\"http://www.paddsolutions.com/contact-us/\" target=\"_blank\">contact us</a> should you need customization support, project quotations, advertisement proposals or just anything under the sun."
+msgstr ""
+
+#: ../library/admin/options-ui.php:31
+msgid "Disclaimer"
+msgstr ""
+
+#: ../library/admin/options-ui.php:32
+msgid "Our themes are provided \"as is\" without warranty of any kind, either expressed or implied. We are not responsible for any damage while using this theme, use it at your own risk."
+msgstr ""
+
+#: ../library/admin/scripts/js.php:69
+msgid "Are you sure that you reset all the theme settings? If you do, this will lose your current settings and revert back to default settings!"
+msgstr ""
+
+#: ../library/includes/class-adminpanel.php:54
+msgid "Save Settings"
+msgstr ""
+
+#: ../library/includes/class-adminpanel.php:56
+msgid "Reset All Settings"
+msgstr ""
+
+#: ../library/includes/class-input.php:204
+#: ../library/includes/class-input.php:230
+#: ../library/includes/class-input.php:237
+msgid "Please Select"
+msgstr ""
+
+#: ../library/includes/class-pagination.php:67
+msgid "Page <span class=\"n nc\">%CURRENT_PAGE%</span> of <span class=\"n nt\">%TOTAL_PAGES%</span>"
+msgstr ""
+
+#: ../library/includes/class-pagination.php:74
+msgid "&laquo; First"
+msgstr ""
+
+#: ../library/includes/class-pagination.php:85
+msgid "&laquo;"
+msgstr ""
+
+#: ../library/includes/class-pagination.php:97
+msgid "&raquo;"
+msgstr ""
+
+#: ../library/includes/class-pagination.php:107
+msgid "Last &raquo;"
+msgstr ""
+
+#: ../library/includes/class-twitter.php:111
+msgid "Twitter settings is not configured."
+msgstr ""
+
+#: ../library/includes/class-twitter.php:137
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: ../library/includes/class-twitter.php:139
+msgid "g:i A F jS"
+msgstr ""
+
+#: ../library/includes/class-twitter.php:142
+msgid "Y/m/d H:i:s"
+msgstr ""
+
+#: ../library/includes/class-twitter.php:160
+msgid "No tweets yet."
+msgstr ""
+
+#: ../library/includes/class-widgets.php:32
+#: ../library/includes/class-widgets.php:70
+#: ../library/includes/class-widgets.php:133
+#: ../library/includes/class-widgets.php:220
+msgid "Title:"
+msgstr ""
+
+#: ../library/includes/class-widgets.php:61
+msgid "Facebook Like Box"
+msgstr ""
+
+#: ../library/includes/class-widgets.php:120
+msgid "Recent Tweets"
+msgstr ""
+
+#: ../library/includes/class-widgets.php:185
+msgid "0 comments"
+msgstr ""
+
+#: ../library/includes/class-widgets.php:185
+msgid "1 comment"
+msgstr ""
+
+#: ../library/includes/class-widgets.php:185
+#, php-format
+msgid "% comments"
+msgstr ""
+
+#: ../library/includes/class-widgets.php:223
+msgid "Number of posts to show:"
+msgstr ""
+
+#: ../library/includes/class-widgets.php:273
+msgid "Popular Posts"
+msgstr ""
+
+#: ../library/includes/class-widgets.php:284
+#: ../library/includes/class-widgets.php:331
+msgid "Title: "
+msgstr ""
+
+#: ../library/includes/class-widgets.php:319
+msgid "Recent Comments"
+msgstr ""
+
+#: ../library/includes/class-widgets.php:332
+msgid "Limit: "
+msgstr ""
+
+#: ../library/includes/functions-widgets.php:63
+msgid "Follow us on Twitter"
+msgstr ""
+
+#: ../library/includes/functions-widgets.php:143
+#, php-format
+msgid "%1$s on %2$s"
+msgstr ""
+
+#: ../library/includes/functions-widgets.php:152
+msgid "There are no comments in all entries."
+msgstr ""
+
+#: ../library/includes/functions-widgets.php:225
+msgid "Read More"
+msgstr ""
+
+#: ../library/includes/functions-widgets.php:256
+#: ../library/includes/functions-widgets.php:258
+msgid "Followers"
+msgstr ""
+
+#: ../library/includes/functions-widgets.php:257
+msgid "Follower"
+msgstr ""
+
+#: ../library/includes/functions-widgets.php:268
+msgid "Subscribers"
+msgstr ""
+
+#: ../library/includes/functions.php:66
+msgid "Share"
+msgstr ""
+
+#: ../library/includes/functions.php:87
+#, php-format
+msgid "%s says:"
+msgstr ""
+
+#: ../library/includes/functions.php:95
+msgid "My comment is awaiting moderation."
+msgstr ""
+
+#: ../library/includes/functions.php:100
+msgid "Edit"
+msgstr ""
+
+#: ../library/includes/functions.php:351
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: ../library/includes/functions.php:455
+msgid "There are no projects."
+msgstr ""
+
+#: ../library/includes/hooks.php:55
+msgid "Read More &raquo;"
+msgstr ""
+
+#: ../scripts/js.php:68
+#: ../scripts/js.php:69
+msgid "Enter your search here..."
+msgstr ""
+

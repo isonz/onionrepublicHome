@@ -1,0 +1,59 @@
+/* = footer.css
+--------------------------------------------------- */
+
+#copyright p {
+	display: block;
+	font-size: 12px;
+	line-height: 64px;
+	margin: 0;
+	padding: 0;
+	color: #656565;
+	text-shadow: 0 1px 0 rgba(19,19,19,0.7);
+}
+#copyright a {
+	color: #656565;
+	text-decoration: none;
+}
+#copyright #credits {
+	float: left;
+}
+
+#footer .widget_socialnet {
+	float: right;
+        margin: 18px 10px 0 0;
+}
+#footer .widget_socialnet h2 {
+	display: none;
+}
+#footer .widget_socialnet p {
+	display: none;
+}
+#footer .widget_socialnet ul {
+	display: block;
+	height: 32px;
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+#footer .widget_socialnet ul li {
+	display: block;
+	list-style-type: none;
+	float: left;
+	margin: 0 0 0 10px;
+}
+#footer .widget_socialnet ul li a {
+	display: block;
+	text-indent: -99999px;
+	width: 32px;
+	height: 32px;
+	background: transparent url('') 0 0 no-repeat;
+}
+#footer .widget_socialnet ul li.facebook a {
+	background-image: url('images/icon-sn-facebook.png');
+}
+#footer .widget_socialnet ul li.twitter a {
+	background-image: url('images/icon-sn-twitter.png');
+}
+#footer .widget_socialnet ul li.rss a {
+	background-image: url('images/icon-sn-rss.png');
+}
