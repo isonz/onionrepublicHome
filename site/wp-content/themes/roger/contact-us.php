@@ -12,7 +12,7 @@ get_header(); ?>
 $post = isset($_POST['massages']) ? htmlspecialchars(nl2br(trim($_POST['massages']))) : null;
 if($post){
 	$data = array('content'=> $post);
-	$rs = DBExt::insertByArray("ls_contact_msg", $data);
+	$rs = DBExt::insertByArray("rehome_contect_us", $data);
 	if($rs) echo '<script>showRs();</script>';
 }
 ?>

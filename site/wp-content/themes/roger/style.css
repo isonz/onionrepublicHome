@@ -52,13 +52,6 @@ form {
 	margin: 0;
 	display: inline;
 }
-input[type='text'], input[type='password'], textarea {
-	background: #F8F8F8;
-	border: 1px solid #CCCCCC;
-	padding: 3px;
-	margin-left: 0px;
-	margin-right: 0px;
-}
 select {
 	background: #F8F8F8;
 	border: 1px solid #CCCCCC;
@@ -440,6 +433,18 @@ div.XDCategoryGroupsBlocks {width:198px; margin:0 5px; overflow:hidden; backgrou
 #home_about{width:100%; border:1px dashed #ccc; font-family:"Times New Roman"; font-size:14px; line-height:22px; color:#333;}
 #home_about .about_word{padding:10px 40px; margin-bottom:50px;}
 #home_about .logo{ text-align:center; margin:10px 0;}
+#contentbox{ min-width:1062px; min-height:596px; margin:20px auto; background:url(images/bg.png) no-repeat center center; position:relative; padding:10px 13px;}
+#contentbox .titleimg{background:url(images/contactus.png) no-repeat; height:44px; }
+#contentbox .maininfo{ margin:60px 0 0 180px; font-size:14px; line-height:22px;}
+#contentbox .maininfo .address h2{ border-bottom:1px #000 solid; width:300px; line-height:30px;}
+#contentbox .maininfo .address{ width:350px; float:left;}
+#contentbox .maininfo .address span{ margin-bottom:20px; display:inline-block;}
+#contentbox .maininfo .contactform{float:right; margin-right:150px;}
+#contentbox .maininfo .contactform h2.bottomline{ border-bottom:1px #000 solid; width:370px; line-height:30px; margin-left:10px;}
+#contentbox .maininfo .contactform td{font-size:14px; line-height:22px; padding:10px;}
+#contentbox .maininfo .contactform input{width: 170px; height: 30px; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; border:1px solid #fff;}
+#contentbox .maininfo .contactform textarea{-moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; border:1px solid #fff; width:355px; height:150px;}
+#contentbox .maininfo .contactform .button{height:24px; border:0;}
 
 .success, .warning, .attention, .information {
 	padding: 10px 10px 10px 33px;
