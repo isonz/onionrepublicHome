@@ -76,7 +76,7 @@ DD_belatedPNG.fix('*');
   <div id="menu">
   <ul class="clearfix">
   	<li><a href="/"<?php if(!$pid) echo' class="active"'?>>HOME</a></li>
-    <li><a href="/?page_id=4"<?php if(4==$pid) echo' class="active"'?>>ABOUT ONION</a></li>
+    <!-- <li><a href="/?page_id=4"<?php if(4==$pid) echo' class="active"'?>>ABOUT ONION</a></li> -->
     <li><a href="/?page_id=23"<?php if(23==$pid) echo' class="active"'?>>PRODUCTS</a></li>
 	<li><a href="/?page_id=25"<?php if(25==$pid) echo' class="active"'?>>CONTACT US</a></li>
    </ul>
