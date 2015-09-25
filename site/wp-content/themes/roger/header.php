@@ -42,7 +42,6 @@ DD_belatedPNG.fix('*');
 <?php endif ?>
 <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/jquery-mobile.detect.js"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/js/default.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/iebug.js"></script>
 </head>
 <body>

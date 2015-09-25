@@ -14,18 +14,6 @@ body, td, th, input, textarea, select, a {
 	font-size: 12px;
 }
 .clearfix:after {content: ".";  display: block;  height: 0;  clear: both;  visibility: hidden;}
-h1, .welcome {
-	color: #636E75;
-	font: Verdana;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	font-size: 22px;
-	background:url(images/log0_mid.png) no-repeat left top;
-	padding-left:40px;
-	padding-bottom:2px;
-	border-bottom:1px solid #ccc;
-	color:#999;
-}
 h2 {
 	color: #000000;
 	font-size: 16px;
@@ -433,7 +421,7 @@ div.XDCategoryGroupsBlocks {width:198px; margin:0 5px; overflow:hidden; backgrou
 #home_about{width:100%; border:1px dashed #ccc; font-family:"Times New Roman"; font-size:14px; line-height:22px; color:#333;}
 #home_about .about_word{padding:10px 40px; margin-bottom:50px;}
 #home_about .logo{ text-align:center; margin:10px 0;}
-#contentbox{ min-width:1062px; min-height:596px; margin:20px auto; background:url(images/bg.png) no-repeat center center; position:relative; padding:10px 13px;}
+#contentbox{ min-width:1062px; min-height:596px; margin:20px auto; background:url(images/bg.png) no-repeat center center; position:relative; padding:10px 13px; overflow:hidden;}
 #contentbox .titleimg{background:url(images/contactus.png) no-repeat; height:44px; }
 #contentbox .maininfo{ margin:60px 0 0 180px; font-size:14px; line-height:22px;}
 #contentbox .maininfo .address h2{ border-bottom:1px #000 solid; width:300px; line-height:30px;}
@@ -446,14 +434,20 @@ div.XDCategoryGroupsBlocks {width:198px; margin:0 5px; overflow:hidden; backgrou
 #contentbox .maininfo .contactform textarea{-moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; border:1px solid #fff; width:355px; height:150px;}
 #contentbox .maininfo .contactform .button{height:24px; border:0;}
 
-#TasteNirvana1{display:none;}
-#PhilippineBrand1{display:none;}
-#PhilippineBrand2{display:none;}
-#MilkPowder1{}
+#contentbox .d1{}
+#contentbox .d2{}
+#contentbox .d3{}
+#contentbox .d4{}
+#contentbox .d5{}
+#contentbox .d6{}
+#contentbox .d7{}
 
+#contentbox .moveupbox{position:absolute; width:7630px;}
+#contentbox .catediv{float:left; width:1090px;}
 #contentbox .titleimg_tastenirvana{background:url(images/tastenirvana.png) no-repeat; height:53px; }
 #contentbox .titleimg_philippinebrand{background:url(images/philippinebrand.png) no-repeat; height:53px; }
 #contentbox .titleimg_milkpowder{background:url(images/milkpowder.png) no-repeat; height:53px; }
+#contentbox .titleimg_redwines{background:url(images/redwines.png) no-repeat; height:120px; width:250px; float:left;}
 
 #contentbox .product_box{ width:400px; height:200px; overflow:hidden; float:left; margin:40px 40px 0 25px;}
 #contentbox .boxs{ margin-left:80px;}
@@ -463,8 +457,19 @@ div.XDCategoryGroupsBlocks {width:198px; margin:0 5px; overflow:hidden; backgrou
 #contentbox .product_box .wordbox ul{padding-left:15px;}
 #contentbox .product_box .wordbox li{ line-height:16px;}
 
+#contentbox .milk_box{ width:220px; overflow:hidden; float:left; margin-right:20px;}
+#MilkPowder1 .boxs{ margin-left:63px; margin-top:50px;}
+#contentbox .milk_box .imgbox{height:230px; text-align:center; line-height:250px; background-color:#FFF; padding-top:20px;}
+#contentbox .milk_box h2{border-bottom:1px #000 solid; margin-top:20px;}
+#contentbox .milk_box .wordbox td{ font-size:14px; padding:2px;}
+
+#contentbox .contentsright{ float:left; width:520px; margin-left:40px; font-family: "黑体";}
+#contentbox .contentsright h1{border-bottom:1px #000 solid; line-height:30px;}
+#contentbox .contentsright .word{ width:350px; float:left; color:#403c3e; margin-top:10px; line-height:20px; font-size:13px;}
+#contentbox .contentsright .pic{ width:150px; float:left; margin-left:20px; text-align:center;}
+
 #nextjiantou{ width:40px; height:100%; position:absolute; right:30px; background:url(images/nextjiantou.png) no-repeat center center; top:0; cursor:pointer;}
-#prejiantou{ width:40px; height:100%; position:absolute; left:30px; background:url(images/prejiantou.png) no-repeat center center; top:0; cursor:pointer;}
+#prejiantou{ width:40px; height:100%; position:absolute; left:30px; background:url(images/prejiantou.png) no-repeat center center; top:0; cursor:pointer; display:none;}
 
 .success, .warning, .attention, .information {
 	padding: 10px 10px 10px 33px;
