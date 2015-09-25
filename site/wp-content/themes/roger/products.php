@@ -182,7 +182,63 @@ endwhile;
 			</div>
 		</div>
 	</div>
-	
+	<!-- ---------------------MilkPowder 1 ------------------------- -->
+	<div id="MilkPowder1" class="catediv clearfix d4">
+		<div class="titleimg_milkpowder"></div>
+		<div class="boxs">
+			<div class="product_box clearfix">
+				<div class="imgbox"><img src="<?php echo get_template_directory_uri(); ?>/images/pic/baby/2.png" /></div>
+				<div class="wordbox">
+					<h2>四季混合果汁饮料</h2>
+					<ul>
+						<li>多种水果果汁精心调配而成，口感多层次</li>
+						<li>零脂肪</li>
+						<li>无添加食用香精</li>
+						<li>采用巴氏杀菌</li>
+					</ul>
+				</div>
+			</div>
+			
+			<div class="product_box clearfix">
+				<div class="imgbox"><img src="<?php echo get_template_directory_uri(); ?>/images/pic/baby/3.png" /></div>
+				<div class="wordbox">
+					<h2>青柠饮料</h2>
+					<ul>
+						<li>优质的菲律宾青柠，含量经过细心调配，营造清爽口感</li>
+						<li>零脂肪</li>
+						<li>无添加食用香精</li>
+						<li>采用巴氏杀菌</li>
+					</ul>
+				</div>
+			</div>
+			
+			<div class="product_box clearfix">
+				<div class="imgbox"><img src="<?php echo get_template_directory_uri(); ?>/images/pic/baby/4.png" /></div>
+				<div class="wordbox">
+					<h2>青柠饮料</h2>
+					<ul>
+						<li>优质的菲律宾青柠，含量经过细心调配，营造清爽口感</li>
+						<li>零脂肪</li>
+						<li>无添加食用香精</li>
+						<li>采用巴氏杀菌</li>
+					</ul>
+				</div>
+			</div>
+			
+			<div class="product_box clearfix">
+				<div class="imgbox"><img src="<?php echo get_template_directory_uri(); ?>/images/pic/baby/5.png" /></div>
+				<div class="wordbox">
+					<h2>青柠饮料</h2>
+					<ul>
+						<li>优质的菲律宾青柠，含量经过细心调配，营造清爽口感</li>
+						<li>零脂肪</li>
+						<li>无添加食用香精</li>
+						<li>采用巴氏杀菌</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
 	
 	<div id="nextjiantou"></div>
 	<div id="prejiantou"></div>
