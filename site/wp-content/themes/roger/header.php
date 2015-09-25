@@ -76,9 +76,9 @@ DD_belatedPNG.fix('*');
   <div id="menu">
   <ul class="clearfix">
   	<li><a href="/" class="active">HOME</a></li>
-    <li><a href="/about">ABOUT ONION</a></li>
-    <li><a href="/products">PRODUCTS</a></li>
-	<li><a href="/contact">CONTACT US</a></li>
+    <li><a href="/?page_id=4">ABOUT ONION</a></li>
+    <li><a href="/?page_id=23">PRODUCTS</a></li>
+	<li><a href="/?page_id=25">CONTACT US</a></li>
    </ul>
   </div>
   </div>

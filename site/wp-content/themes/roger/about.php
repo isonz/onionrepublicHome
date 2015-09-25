@@ -1,14 +1,16 @@
 <?php
 /*
-Template Name: 关于帕斯婷
+Template Name: 关于
 */
-
-header("Location: /about-placentin/introduction/");
-exit;
-
-get_header(); 
 ?>
 
+<?php 
+get_header();
 
-    
-<?php get_footer(); ?>
+query_posts('page_id=4');
+while ( have_posts() ) : the_post(); 
+	get_template_part( 'content', 'page' );  
+endwhile;
+
+get_footer(); 
+?>
