@@ -69,16 +69,16 @@ DD_belatedPNG.fix('*');
   <!-- end date -->
 </div>
 <!--header area end-->
-
+<?php $pid = isset($_GET['page_id']) ? (int)$_GET['page_id'] : 0;?>
 <!--menu area-->
 <div id="menus">
   <div id="menu_dashed">
   <div id="menu">
   <ul class="clearfix">
-  	<li><a href="/" class="active">HOME</a></li>
-    <li><a href="/?page_id=4">ABOUT ONION</a></li>
-    <li><a href="/?page_id=23">PRODUCTS</a></li>
-	<li><a href="/?page_id=25">CONTACT US</a></li>
+  	<li><a href="/"<?php if(!$pid) echo' class="active"'?>>HOME</a></li>
+    <li><a href="/?page_id=4"<?php if(4==$pid) echo' class="active"'?>>ABOUT ONION</a></li>
+    <li><a href="/?page_id=23"<?php if(23==$pid) echo' class="active"'?>>PRODUCTS</a></li>
+	<li><a href="/?page_id=25"<?php if(25==$pid) echo' class="active"'?>>CONTACT US</a></li>
    </ul>
   </div>
   </div>
