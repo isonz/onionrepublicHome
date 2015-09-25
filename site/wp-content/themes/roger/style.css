@@ -446,9 +446,9 @@ div.XDCategoryGroupsBlocks {width:198px; margin:0 5px; overflow:hidden; backgrou
 #contentbox .maininfo .contactform textarea{-moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; border:1px solid #fff; width:355px; height:150px;}
 #contentbox .maininfo .contactform .button{height:24px; border:0;}
 
-#TasteNirvana1{display:none;}
+#TasteNirvana1{}
 #PhilippineBrand1{display:none;}
-#PhilippineBrand2{}
+#PhilippineBrand2{display:none;}
 
 #contentbox .titleimg_tastenirvana{background:url(images/tastenirvana.png) no-repeat; height:53px; }
 #contentbox .titleimg_philippinebrand{background:url(images/philippinebrand.png) no-repeat; height:53px; }

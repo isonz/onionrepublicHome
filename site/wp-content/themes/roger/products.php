@@ -6,9 +6,11 @@ Template Name:产品
 
 <?php  
 get_header();
+/*
 while ( have_posts() ) : the_post(); 
 	get_template_part( 'content', 'page' ); 
-endwhile; 
+endwhile;
+*/
 ?>
 
 
