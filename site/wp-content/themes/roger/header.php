@@ -86,5 +86,3 @@ DD_belatedPNG.fix('*');
 <!--menu area end-->
 <div id="notification"></div>
 
-
-
