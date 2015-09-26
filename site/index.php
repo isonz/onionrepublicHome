@@ -13,9 +13,9 @@
  */
 define('WP_USE_THEMES', true);
 
-require_once('Mobile_Detect.php');
-$detect = new Mobile_Detect();
-if($detect->isMobile() || $detect->isTablet()) define('IS_MOBILE', true);
+//require_once('Mobile_Detect.php');
+//$detect = new Mobile_Detect();
+//if($detect->isMobile() || $detect->isTablet()) define('IS_MOBILE', true);
 
 /** Loads the WordPress Environment and Template */
 require( dirname( __FILE__ ) . '/wp-blog-header.php' );
